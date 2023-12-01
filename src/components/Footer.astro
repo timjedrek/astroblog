@@ -1,8 +1,17 @@
 ---
 const d = new Date();
 let year = d.getFullYear();
+const platform = "github"
+const username = "timjedrek"
 ---
 
-<div class="text-sm italic text-slate-500 text-center pt-20">
+
+
+<div class="pt-20 text-center">
+  <p>Learn more about my projects on <a href={`https://www.${platform}.com/${username}`}>{platform}</a>!</p>
+</div>
+
+<div class="text-sm italic text-slate-500 text-center pt-5">
+  
 Copyright {year} Footer Social Links Privacy Policy Terms of Service
 </div>
